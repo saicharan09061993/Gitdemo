@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T17:19:21 IST" name="Suite" finished-at="2021-09-22T17:19:33 IST" duration-ms="11912">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T17:19:21 IST" name="Test" finished-at="2021-09-22T17:19:30 IST" duration-ms="8766">
+      <class name="Automation.E2Eproject.Homepage">
+        <test-method is-config="true" signature="ExecuteF()[pri:0, instance:Automation.E2Eproject.Homepage@76c7beb3]" started-at="2021-09-22T17:19:21 IST" name="ExecuteF" finished-at="2021-09-22T17:19:27 IST" duration-ms="5228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteF -->
+        <test-method signature="Loginpage()[pri:0, instance:Automation.E2Eproject.Homepage@76c7beb3]" started-at="2021-09-22T17:19:27 IST" name="Loginpage" finished-at="2021-09-22T17:19:27 IST" duration-ms="468" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Reset] but found [Reset Password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Reset] but found [Reset Password]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Automation.E2Eproject.Homepage.Loginpage(Homepage.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginpage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.E2Eproject.Homepage@76c7beb3]" started-at="2021-09-22T17:19:30 IST" name="close" finished-at="2021-09-22T17:19:30 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Automation.E2Eproject.Homepage -->
+    </test> <!-- Test -->
+    <test started-at="2021-09-22T17:19:21 IST" name="Test1" finished-at="2021-09-22T17:19:33 IST" duration-ms="11912">
+      <class name="Automation.E2Eproject.Homepage2">
+        <test-method is-config="true" signature="ExecuteFirst()[pri:0, instance:Automation.E2Eproject.Homepage2@5d25e6bb]" started-at="2021-09-22T17:19:21 IST" name="ExecuteFirst" finished-at="2021-09-22T17:19:27 IST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteFirst -->
+        <test-method signature="loginp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.E2Eproject.Homepage2@5d25e6bb]" started-at="2021-09-22T17:19:27 IST" name="loginp" data-provider="getData" finished-at="2021-09-22T17:19:27 IST" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saicharan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[santhosh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.E2Eproject.Homepage2@5d25e6bb]" started-at="2021-09-22T17:19:27 IST" name="close" finished-at="2021-09-22T17:19:28 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="ExecuteFirst()[pri:0, instance:Automation.E2Eproject.Homepage2@5d25e6bb]" started-at="2021-09-22T17:19:28 IST" name="ExecuteFirst" finished-at="2021-09-22T17:19:32 IST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteFirst -->
+        <test-method signature="loginp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.E2Eproject.Homepage2@5d25e6bb]" started-at="2021-09-22T17:19:32 IST" name="loginp" data-provider="getData" finished-at="2021-09-22T17:19:33 IST" duration-ms="571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4656]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[charan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8778785]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.E2Eproject.Homepage2@5d25e6bb]" started-at="2021-09-22T17:19:33 IST" name="close" finished-at="2021-09-22T17:19:33 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Automation.E2Eproject.Homepage2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
